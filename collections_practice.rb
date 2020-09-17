@@ -55,6 +55,6 @@ end
 
 #9
 def add_s(array)
-array.each { |word| if word != "feet" { word << "s" }}
+array.each { |word| if word != "feet" word << "s" }
   array
 end
